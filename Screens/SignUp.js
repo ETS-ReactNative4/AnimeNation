@@ -23,7 +23,10 @@ export default function SignUp() {
     } else {
       createUserWithEmailAndPassword(authentication, email, password)
         .then(() =>
-          Alert.alert('Great Choice!', 'New User Successfully Created!')
+          Alert.alert(
+            'Welcome to Anime Nation!',
+            'New User Successfully Created!'
+          )
         )
         .catch((error) => {
           if (error.code == 'auth/email-already-in-use') {
@@ -119,6 +122,8 @@ const styles = StyleSheet.create({
     marginBottom: 5,
     paddingVertical: 5,
     alignItems: 'center',
+    justifyContent: 'center',
+    textAlign: 'center',
     borderWidth: 1.5,
     borderColor: 'grey',
   },
@@ -139,6 +144,6 @@ const styles = StyleSheet.create({
   signUpButtonText: {
     color: 'black',
     fontWeight: '700',
-    fontSize: 16,
+    fontSize: 13,
   },
 });

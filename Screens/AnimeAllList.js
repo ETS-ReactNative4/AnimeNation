@@ -88,7 +88,7 @@ export default function Screen2({ navigation }) {
       null,
       null
     );
-    Alert.alert('Nice one!', 'The movie has been added to Favorites');
+    Alert.alert('Great Choice!', 'The movie has been added to Favorites');
   };
 
   return (
