@@ -1,7 +1,9 @@
 {
   "expo": {
-    "name": "Anime Nation GioFra",
-    "slug": "Anime Nation GioFra",
+    "name": "Anime Nation",
+    "slug": "animenation",
+    "privacy": "public",
+    "description": "Anime Nation - Application that offers vast knowledge about some prestigious and award winning animated movies from Studio Ghibli",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/signInUp/titleImage.png",
