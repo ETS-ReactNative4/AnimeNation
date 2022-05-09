@@ -1,8 +1,8 @@
 import React from 'react';
 import { StyleSheet } from 'react-native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
-import SignIn from './SignIn';
-import SignUp from './SignUp';
+import SignIn from '../screens/SignIn';
+import SignUp from '../screens/SignUp';
 import MainNavigation from './MainNavigation';
 import { Ionicons } from '@expo/vector-icons';
 

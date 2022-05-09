@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { StyleSheet } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import LoginNavigation from './Screens/LoginNavigation';
+import LoginNavigation from './navigation/LoginNavigation';
 import { onAuthStateChanged } from 'firebase/auth';
-import { authentication } from './Screens/firebaseConfig';
-import MainNavigation from './Screens/MainNavigation';
+import { authentication } from './screens/firebaseConfig';
+import MainNavigation from './navigation/MainNavigation';
 
 export default function App() {
   const [user, setUser] = useState(false);

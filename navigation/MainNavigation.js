@@ -3,15 +3,15 @@ import React from 'react';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import { Ionicons } from '@expo/vector-icons';
-import HomeScreen from './HomeScreen';
-import AnimeAllList from './AnimeAllList';
-import Favorites from './Favorites';
-import Profile from './Profile';
-import HomeFeaturedAnime from './HomeFeaturedAnime';
-import AnimeSelectedList from './AnimeSelectedList';
-import FavoritesSelectedList from './FavoritesSelectedList';
-import SignIn from './SignIn';
-import Quote from './Quote';
+import HomeScreen from '../screens/HomeScreen';
+import AnimeAllList from '../screens/AnimeAllList';
+import Favorites from '../screens/Favorites';
+import Profile from '../screens/Profile';
+import HomeFeaturedAnime from '../screens/HomeFeaturedAnime';
+import AnimeSelectedList from '../screens/AnimeSelectedList';
+import FavoritesSelectedList from '../screens/FavoritesSelectedList';
+import SignIn from '../screens/SignIn';
+import Quote from '../screens/Quote';
 
 export default function MainNavigation() {
   const Tab = createBottomTabNavigator();
